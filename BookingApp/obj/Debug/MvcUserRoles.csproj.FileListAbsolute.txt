@@ -1,0 +1,364 @@
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\MvcUserRoles.dll.config
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\MvcUserRoles.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\MvcUserRoles.pdb
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\csc.exe
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\csc.exe.config
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\csc.rsp
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\csi.exe
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\csi.exe.config
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\csi.rsp
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\System.AppContext.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Console.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\System.IO.Compression.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Security.Claims.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\System.ValueTuple.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\vbc.exe
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\vbc.exe.config
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\vbc.rsp
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\VBCSCompiler.exe
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Antlr3.Runtime.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\EntityFramework.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\EntityFramework.SqlServer.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Newtonsoft.Json.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Owin.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\System.Web.Helpers.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\System.Web.Mvc.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\System.Web.Optimization.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\System.Web.Razor.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\System.Web.WebPages.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\System.Web.WebPages.Razor.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\WebGrease.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\System.Web.Helpers.xml
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\System.Web.Mvc.xml
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\System.Web.Optimization.xml
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\System.Web.Razor.xml
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\System.Web.WebPages.xml
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\System.Web.WebPages.Razor.xml
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Newtonsoft.Json.xml
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Antlr3.Runtime.pdb
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\EntityFramework.xml
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\EntityFramework.SqlServer.xml
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.xml
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.xml
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\obj\Debug\MvcUserRoles.csprojAssemblyReference.cache
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\obj\Debug\MvcUserRoles.csproj.CoreCompileInputs.cache
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\obj\Debug\MvcUserRoles.csproj.CopyComplete
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\obj\Debug\MvcUserRoles.dll
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\obj\Debug\MvcUserRoles.pdb
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\obj\Debug\MvcUserRoles.Migrations.InitialDb.resources
+C:\Users\Kris\source\repos\MvcUserRoles\MvcUserRoles\obj\Debug\MvcUserRoles.csproj.GenerateResource.cache
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\MvcUserRoles.dll.config
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\MvcUserRoles.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\MvcUserRoles.pdb
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\csc.exe
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\csc.exe.config
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\csc.rsp
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\csi.exe
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\csi.exe.config
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\csi.rsp
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\System.AppContext.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Collections.Immutable.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Console.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\System.IO.Compression.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\System.IO.FileSystem.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\System.IO.Pipes.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Reflection.Metadata.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Security.AccessControl.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Security.Claims.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\System.ValueTuple.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Xml.XPath.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\vbc.exe
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\vbc.exe.config
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\vbc.rsp
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\VBCSCompiler.exe
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\roslyn\VBCSCompiler.exe.config
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Antlr3.Runtime.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\EntityFramework.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\EntityFramework.SqlServer.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.Google.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Microsoft.Web.Infrastructure.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Newtonsoft.Json.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Owin.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\System.Web.Helpers.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\System.Web.Mvc.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\System.Web.Optimization.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\System.Web.Razor.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\System.Web.WebPages.Deployment.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\System.Web.WebPages.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\System.Web.WebPages.Razor.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\WebGrease.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\System.Web.Helpers.xml
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\System.Web.Mvc.xml
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\System.Web.Optimization.xml
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\System.Web.Razor.xml
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\System.Web.WebPages.xml
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\System.Web.WebPages.Deployment.xml
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\System.Web.WebPages.Razor.xml
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Newtonsoft.Json.xml
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Antlr3.Runtime.pdb
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\EntityFramework.xml
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\EntityFramework.SqlServer.xml
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.xml
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.xml
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.Google.xml
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\obj\Debug\MvcUserRoles.csprojAssemblyReference.cache
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\obj\Debug\MvcUserRoles.csproj.CoreCompileInputs.cache
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\obj\Debug\MvcUserRoles.csproj.CopyComplete
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\obj\Debug\MvcUserRoles.dll
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\obj\Debug\MvcUserRoles.pdb
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\obj\Debug\MvcUserRoles.Migrations.InitialDb.resources
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\obj\Debug\MvcUserRoles.csproj.GenerateResource.cache
+D:\Users\Kris\Desktop\MvcUserRoles\MvcUserRoles\obj\Debug\MvcUserRoles.Migrations.Change1.resources
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\obj\Debug\MvcUserRoles.csproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\MvcUserRoles.dll.config
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\MvcUserRoles.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\MvcUserRoles.pdb
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\csc.exe
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\csc.exe.config
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\csc.rsp
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\csi.exe
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\csi.exe.config
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\csi.rsp
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\System.AppContext.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Collections.Immutable.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Console.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\System.IO.Compression.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\System.IO.FileSystem.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\System.IO.Pipes.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Reflection.Metadata.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Security.AccessControl.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Security.Claims.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\System.ValueTuple.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Xml.XPath.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\vbc.exe
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\vbc.exe.config
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\vbc.rsp
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\VBCSCompiler.exe
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\roslyn\VBCSCompiler.exe.config
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Antlr3.Runtime.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\DotNetOpenAuth.AspNet.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\DotNetOpenAuth.Core.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\DotNetOpenAuth.OAuth.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\DotNetOpenAuth.OpenId.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\EntityFramework.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\EntityFramework.SqlServer.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.Google.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Microsoft.Web.Helpers.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Microsoft.Web.Infrastructure.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Newtonsoft.Json.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Owin.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\PayPal.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\System.Net.Http.Formatting.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\System.Web.Helpers.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\System.Web.Http.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\System.Web.Http.WebHost.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\System.Web.Mvc.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\System.Web.Optimization.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\System.Web.Razor.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\System.Web.WebPages.Deployment.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\System.Web.WebPages.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\System.Web.WebPages.Razor.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\WebGrease.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Org.Mentalis.Security.Cryptography.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Mono.Math.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\DotNetOpenAuth.AspNet.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\DotNetOpenAuth.Core.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\DotNetOpenAuth.OAuth.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\DotNetOpenAuth.OpenId.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\PayPal.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\System.Net.Http.Formatting.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\System.Web.Helpers.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\System.Web.Http.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\System.Web.Http.WebHost.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\System.Web.Razor.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\System.Web.WebPages.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\System.Web.WebPages.Deployment.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\System.Web.WebPages.Razor.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\System.Web.Mvc.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\System.Web.Optimization.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Newtonsoft.Json.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Antlr3.Runtime.pdb
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\EntityFramework.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\EntityFramework.SqlServer.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.Google.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Org.Mentalis.Security.Cryptography.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\Mono.Math.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\obj\Debug\MvcUserRoles.csprojAssemblyReference.cache
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\obj\Debug\MvcUserRoles.csproj.CopyComplete
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\obj\Debug\MvcUserRoles.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\obj\Debug\MvcUserRoles.pdb
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\obj\Debug\MvcUserRoles.Migrations.Initial.resources
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\obj\Debug\MvcUserRoles.csproj.GenerateResource.cache
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\obj\Debug\MvcUserRoles.Migrations.Reviews.resources
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\PagedList.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\PagedList.Mvc.dll
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\PagedList.xml
+D:\Documents\Visual Studio 2017\Projects\MvcUserRoles\MvcUserRoles\bin\PagedList.Mvc.xml

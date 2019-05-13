@@ -1,0 +1,19 @@
+﻿@model List<MvcUserRoles.Models.ApplicationUser>
+@{
+    ViewBag.Title = "AllMessagesGrouped";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<h2>Your messages</h2>
+
+
+@foreach (var item in Model)
+{
+    <div class="btn btn-primary" style="background-color: #e5e5ea;font-size: larger;width: 50%;text-align: left;margin-bottom: 2px;">
+        <a href='@Url.Action("Messages", "Home", new {senderid = item.Id})'>messages from @item.Name</a>
+    </div>
+    <br />
+
+}

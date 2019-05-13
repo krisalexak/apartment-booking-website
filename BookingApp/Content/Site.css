@@ -1,0 +1,248 @@
+﻿
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+/*input,
+select,
+textarea {
+     max-width: 280px;
+}*/
+
+/* My CSS here*/
+.navbar .container {
+    margin-left: 0;
+}
+
+.navbar-inverse {
+    background-color: #fbf6f0 !important;
+    font-weight: 900 !important;
+    border-color: #9dcdd7 !important;
+}
+
+    .navbar-inverse .navbar-nav > li > a {
+        color: #626262 !important;
+    }
+
+        .navbar-inverse .navbar-nav > li > a:hover {
+            color: #626262 !important;
+            background-color: #c1e0e3 !important;
+        }
+
+    .navbar-inverse .navbar-brand {
+        color: #4a4a4a !important;
+    }
+
+    .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+        background-color: #fbf6f0;
+    }
+
+        .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+            color: #4a4a4a;
+        }
+
+#Description {
+    width: 100% !important;
+    height:95px;
+}
+
+a:hover, a:focus {
+    text-decoration: none !important;
+}
+
+body {
+    background-color: rgb(226, 224, 224) !important;
+    margin-top: 100px;
+    font-family: 'Lato', sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0,0.0),rgba(0, 0, 0,0.0)),url(/Data/blue.jpg);
+    /*Create the parallax scrolling effect*/
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+}
+
+.modal-content {
+    background-image: linear-gradient(rgba(0, 0, 0,0.0),rgba(0, 0, 0,0.0)),url(/Data/blue.jpg);
+    background-position: bottom;
+}
+
+
+
+/* Search Box------------------ */
+#search-box {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255,1);
+    color: #626262;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.8em;
+}
+
+    #search-box #search-row {
+        display: flex;
+        justify-content: center;
+    }
+
+    #search-box #checkLabel-row {
+        display: flex;
+        flex-direction: row;
+    }
+
+        #search-box #checkLabel-row div {
+            flex: 1;
+        }
+
+    #search-box #checkInput-row {
+        display: flex;
+        justify-content: center;
+    }
+
+    #search-box button {
+        width: 25%;
+        align-self: flex-end;
+        margin-top: 10px;
+    }
+
+/* Itemss Section------------------ */
+
+#itemsPerPage {
+    width: 35%;
+}
+
+.pagination > li > a {
+    color: #676767;
+    opacity: 0.9;
+    text-decoration: none;
+    border: 1px solid #afdafa;
+}
+/* Hotel Posts Section------------------ */
+
+#hotel-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(255, 255, 255,.7);
+    border-radius: 6px;
+}
+
+img {
+    border-radius: 5px;
+}
+
+.hotel-post:hover {
+    opacity: 1;
+    transform: scale(1.01);
+}
+
+.hotel-post {
+    flex-basis: 25%;
+    margin: 20px;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+    .hotel-post .description {
+        text-align: center;
+    }
+
+        .hotel-post .description .title {
+            color: #676767;
+            text-transform: uppercase;
+        }
+/* Property Details Section------------------ */
+
+#propertyDetails{
+    display:flex;
+    justify-content:center;
+}
+#propertyDetailsBtn{
+    text-align:center;
+}
+/* Property Reviews Section------------------ */
+ul#reviewList {
+    max-height: 500px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+#reviewList li {
+    background-color: #fbf6f0;
+    padding: 15px;
+    list-style: none;
+    border: solid 1px #b4dbe0;
+    
+}
+/* Chat Section------------------ */
+
+#container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px;
+}
+
+.item1 {
+    background-color: rgb(192, 236, 192);
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin-bottom:3px;
+    width:50%;
+    align-self:flex-end;
+    margin-right:5%;
+}
+
+.item2 {
+    background-color: rgb(243, 236, 154);
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin-bottom: 3px;
+    width:50%;
+    margin-left:5%;
+}
+
+#You {
+    text-decoration: underline;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 0px;
+}
+
+#Other {
+    text-decoration: underline;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 0px;
+}
+
+.date {
+    margin-bottom: 0px;
+    color: grey;
+    font-style: italic;
+    font-size: small;
+}
+
+#mytextarea {
+    margin-top: 3px;
+    width: 100%;
+    height: 90px;
+}
+
+.mytextarea {
+    margin-top: 3px;
+    width: 100%;
+    height: 90px;
+}
+#message_sender{
+    font-weight:800;
+    font-style:oblique;
+}

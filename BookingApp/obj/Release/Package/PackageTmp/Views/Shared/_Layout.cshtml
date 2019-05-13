@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+    <title>@ViewBag.Title - My Booking App</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ccdfb9a234a3123"></script>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href='@Url.Action("Index","Home")' id="logo">
+                    <img src="~/Data/logoo.png" height="50" style="align-self:flex-start" />
+                </a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Options<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                @if (User.IsInRole("Admin") || User.IsInRole("Owner"))
+                                {
+                                    <li>@Html.ActionLink("Add a Property", "Create", "Property")</li>
+                                    <li>@Html.ActionLink("My Properties", "Mine", "Property")</li>
+                                    <li role="separator" class="divider"></li>
+                                    <li>@Html.ActionLink("My Messages", "AllMessagesGrouped", "Home")</li>
+                                    <li role="separator" class="divider"></li>
+                                    <li>@Html.ActionLink("Hosting History", "GetHostings", "Booking")</li>
+                                    <li>@Html.ActionLink("Upcoming Hostings", "GetUpcomingHostings", "Booking")</li>
+                                }
+                                @if (User.IsInRole("Admin") || User.IsInRole("Traveler"))
+                                {
+                                    <li>@Html.ActionLink("My Booking History", "Mine", "Booking")</li>
+                                    <li>@Html.ActionLink("My Upcoming Bookings", "MineUpcoming", "Booking")</li>
+                                    <li role="separator" class="divider"></li>
+                                    <li>@Html.ActionLink("My Messages", "AllMessagesGrouped", "Home")</li>
+
+                                }
+
+
+                            </ul>
+                        </li>
+                    }
+
+
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        @*<hr />*@
+        @*<footer>
+                <p>&copy; @DateTime.Now.Year - All Rights Reserved</p>
+            </footer>*@
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ccdfb9a234a3123"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+
+</body>
+</html>

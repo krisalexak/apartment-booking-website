@@ -1,0 +1,110 @@
+﻿@model MvcUserRoles.ViewModels.SearchPropertyViewModel
+
+
+
+@using (Html.BeginForm("Search", "Property", FormMethod.Get, new { @id = "search-form" }))
+{
+    <div id="search-box" class="jumbotron">
+
+        @Html.LabelFor(m => m.SearchText, "WHERE")
+        <div id="search-row">
+            @Html.TextBoxFor(m => m.SearchText, new { id = "searchText", @class = "form-control", placeholder = "i.e. City / Country" })
+        </div>
+
+        <div id="checkLabel-row">
+            <div>
+                @Html.LabelFor(m => m.CheckIn, "CHECK-IN")
+            </div>
+            <div>
+                @Html.LabelFor(m => m.CheckOut, "CHECK-OUT")
+            </div>
+        </div>
+        <div id="checkInput-row">
+            @Html.TextBoxFor(m => m.CheckIn, new { id = "checkIn", @class = "form-control", type = "date", value = Model.CheckIn, required = "required" })
+            @Html.TextBoxFor(m => m.CheckOut, new { id = "checkOut", @class = "form-control", type = "date", value = Model.CheckOut, required = "required" })
+        </div>
+
+        <label for="guests">GUESTS</label>
+        <div id="guests-row">
+            @Html.DropDownListFor(m=>m.Guests,new SelectList(
+                new List<SelectListItem>{
+                    new SelectListItem{Selected=true,Text="All",Value="0"},
+                    new SelectListItem{Selected=false,Text="1",Value="1"},
+                    new SelectListItem{Selected=false,Text="2",Value="2"},
+                    new SelectListItem{Selected=false,Text="3",Value="3"},
+                    new SelectListItem{Selected=false,Text="4",Value="4"},
+                    new SelectListItem{Selected=false,Text="5",Value="5"}
+                },"Value","Text",0), new { @class = "form-control", @id = "guests" })
+         
+        </div>
+
+        @Html.LabelFor(m => m.Category, "CATEGORY")
+        @Html.EnumDropDownListFor(m => m.Category, new { @class = "form-control", @id = "category"})
+        <button id="searchButton" class="btn btn-primary" type="submit">Search</button>
+    </div>
+    <div id="itemsPerPage" class="form-group">
+        @Html.LabelFor(m => m.ItemsPerPage, "Products Per Page")
+        @Html.EnumDropDownListFor(m => m.ItemsPerPage, new { @class = "form-control", @id = "itemsPerPage" })
+
+
+    </div>
+}   
+
+
+
+
+
+
+
+
+<div id="hotel-container">
+    @foreach (var property in Model.Properties)
+    {
+        <a href='@Url.Action("Details","Property", property)'>
+            <div class="hotel-post">
+                <img src=~/Data/@property.Image height="200" width="300">
+                <div class="description">
+                    <strong class="title">ENTIRE @property.Category ・ @property.Beds Beds</strong>
+                    <p class="name"><strong style='color:#0065af'>@property.Name</strong> in @property.City</p>
+                </div>
+
+            </div>
+        </a>
+    }
+</div>
+
+<nav aria-label="Page navigation example">
+    <ul class="pagination">
+        @for (int i = 1; i <= Model.TotalPages; i++)
+        {
+            <li class="page-item">
+                @Html.ActionLink($"{i}", "Search", "Property", new { page = i, itemsPerPage = (int)Model.ItemsPerPage, searchText = Model.SearchText, category=Model.Category, guests=Model.Guests }, new { @class = (i == Model.CurrentPage) ? "active-page page-link" : "page-link" })
+            </li>
+        }
+    </ul>
+</nav>
+
+<script>
+    window.onload = () => {
+        const itemsPerPage = document.getElementById('itemsPerPage');
+        const checkIn = document.getElementById('checkIn');
+        const checkOut = document.getElementById('checkOut');
+        const form = document.getElementById('search-form');
+
+
+        checkIn.value = sessionStorage.getItem("checkIn");
+        checkOut.value = sessionStorage.getItem("checkOut");
+
+        itemsPerPage.onchange = () => {
+            document.getElementById('search-form').submit();
+        }
+
+
+        form.onsubmit = (function () {
+            sessionStorage.setItem("checkIn", checkIn.value);
+            sessionStorage.setItem("checkOut", checkOut.value);
+     
+        })
+
+    }
+</script>

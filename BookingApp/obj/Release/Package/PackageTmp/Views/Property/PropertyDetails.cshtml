@@ -1,0 +1,249 @@
+﻿@model MvcUserRoles.ViewModels.MasterViewModel
+@{
+    ViewBag.Title = "PropertyDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div>
+    <!-- Modal -->
+    <div class="modal fade" id="bookModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+
+                @using (Html.BeginForm("Create", "Booking", FormMethod.Post, new { @id = "book-form" }))
+                {
+                    <div class="modal-header">
+
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h5 class="modal-title" id="exampleModalLongTitle">$<strong id="pricePerNight">@Model.PropertyViewModel.PricePerNight</strong> per night</h5>
+                    </div>
+                    <div class="modal-body">
+                        <dl class="dl-horizontal">
+                            <dt>Property:</dt>
+                            <dd>@Model.PropertyViewModel.Name</dd>
+                            <dt>Check-in:</dt>
+                            <dd id="sessionCheckIn"></dd>
+
+
+                            <dt>Check-out:</dt>
+                            <dd id="sessionCheckOut"></dd>
+
+                            <dt>Guests:</dt>
+                            <dd>
+                                <select id="guests" name=@Html.NameFor(m=>m.PropertyViewModel.Guests)>
+                                    @for (int i = 1; i <= Model.PropertyViewModel.Guests; i++)
+                                    {
+                                        <option value=@i>@i</option>
+                                    }
+                                </select>
+                            </dd>
+                            <dt>Stay for:</dt>
+                            <dd><span id="nightsNo"></span> nights</dd>
+                            <dt>Price:</dt>
+                            <dd>$<span id="price"></span></dd>
+                        </dl>
+                      
+                        @Html.HiddenFor(model => Model.PropertyViewModel.PricePerNight)
+                        @Html.HiddenFor(model => Model.PropertyViewModel.CheckIn)
+                        @Html.HiddenFor(model => Model.PropertyViewModel.CheckOut)
+                        @Html.HiddenFor(model => Model.PropertyViewModel.Id)
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Pay with Paypal</button>
+                    </div>
+
+                }
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="propertyDetails">
+        <img src="~/Data/@Model.PropertyViewModel.Image" height="200" width="300">
+
+        <div id="details">
+
+
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.PropertyViewModel.Name):
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.PropertyViewModel.Name)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.PropertyViewModel.Description):
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.PropertyViewModel.Description)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.PropertyViewModel.City):
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.PropertyViewModel.City)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.PropertyViewModel.Country):
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.PropertyViewModel.Country)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.PropertyViewModel.PricePerNight):
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.PropertyViewModel.PricePerNight)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.PropertyViewModel.Guests):
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.PropertyViewModel.Guests)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.PropertyViewModel.Beds):
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.PropertyViewModel.Beds)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.PropertyViewModel.Rooms):
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.PropertyViewModel.Rooms)
+                </dd>
+            </dl>
+            @if (User.IsInRole("Admin") || User.IsInRole("Traveler"))
+            {
+                <div id="propertyDetailsBtn">
+                    <button type="button" id="bookButton" class="btn btn-primary" data-toggle="modal" data-target="#bookModal">
+                        Book
+                    </button>
+                    <a class="btn btn-primary" href='@Url.Action("CreateMessage", "Home", new {owner = Model.PropertyViewModel.ownerid})'>Send Message</a>
+
+                </div>
+            }
+            <!-- Button trigger modal -->
+
+        </div>
+    </div>
+
+
+
+
+    <hr />
+
+    <h3 id="reviewSectionTitle" style="text-align:center"></h3>
+    <ul id="reviewList"></ul>
+    @if (User.IsInRole("Admin") || User.IsInRole("Traveler"))
+    {
+        <h4>
+            Add your review
+        </h4>
+
+        <textarea id="reviewMessage" style="width:100%"></textarea>
+        <button id="submitReview" type="submit" class="btn btn-primary">Submit Comment</button>
+    }
+
+
+
+</div>
+
+
+
+<script>
+    window.onload = () => {
+        const bookButton = document.getElementById('bookButton');
+        const bookCheckIn = document.getElementById('sessionCheckIn');
+        const bookCheckOut = document.getElementById('sessionCheckOut');
+        const price = document.getElementById('price');
+        const pricePerNight = document.getElementById('pricePerNight');
+        const nightsNo = document.getElementById('nightsNo');
+
+        const checkIn = document.getElementById('PropertyViewModel_CheckIn');
+        const checkOut = document.getElementById('PropertyViewModel_CheckOut');
+        const submitReview = document.getElementById('submitReview');
+
+
+        bookCheckIn.innerHTML = sessionStorage.getItem('checkIn');
+        bookCheckOut.innerHTML = sessionStorage.getItem('checkOut');
+        price.innerHTML = pricePerNight.innerHTML * calculateNights(bookCheckIn, bookCheckOut);
+        nightsNo.innerHTML = calculateNights(bookCheckIn, bookCheckOut);
+
+
+        checkIn.setAttribute("value", sessionStorage.getItem('checkIn'));
+        checkOut.setAttribute("value", sessionStorage.getItem('checkOut'));
+
+
+        function calculateNights(bookCheckIn, bookCheckOut) {
+            let one_day = 1000 * 60 * 60 * 24;
+            let difference_ms = Date.parse(bookCheckOut.innerHTML) - Date.parse(bookCheckIn.innerHTML);
+            return Math.round(difference_ms / one_day);
+        }
+
+
+        $("#submitReview").click(function () {
+            var reviewMessage = $('#reviewMessage').val();
+
+            $.post("/api/review", {
+                message: reviewMessage,
+                propertyId:@Model.PropertyViewModel.Id}).
+                done(refreshReviews);
+        });
+
+
+        refreshReviews();
+
+
+        function refreshReviews() {
+            $.ajax({
+                type: "GET",
+                url: '/api/review/@Model.PropertyViewModel.Id',
+                dataType: "json",
+                success: showReviews,
+                error: function () {
+                    alert("json not found");
+                }
+
+            });
+
+            function showReviews(json) {
+                lol = document.getElementById('reviewSectionTitle');
+                lol.innerHTML = `<i class="fas fa-comment"></i> `+ json.length+" Comments";
+
+                let reviewList = document.getElementById('reviewList');
+                reviewList.innerHTML = "";
+
+                for (let i = 0; i < json.length; i++) {
+                    reviewList.innerHTML += `<li><i class="fas fa-user-circle fa-3x"></i><small style="font-weight:800">${json[i].Traveler.Name}</small></br></br>${json[i].Message}</li>`;
+                }
+            };
+        }
+    }
+
+
+
+
+</script>

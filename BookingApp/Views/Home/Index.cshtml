@@ -1,0 +1,84 @@
+﻿@model MvcUserRoles.ViewModels.SearchPropertyViewModel
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+
+
+@using (Html.BeginForm("Search", "Property", FormMethod.Get, new { @id = "search-form" }))
+{
+    <div id="search-box" class="jumbotron home">
+        <h2 id="searchTitle"><strong>Discover unique homes.</strong></h2>
+        @Html.LabelFor(m => m.SearchText, "WHERE")
+        <div id="search-row">
+            @Html.TextBoxFor(m => m.SearchText, new { id = "searchText", @class = "form-control", placeholder = "i.e. City / Country" })
+        </div>
+
+        <div id="checkLabel-row">
+            <div>
+                @Html.LabelFor(m => m.CheckIn, "CHECK-IN")
+            </div>
+            <div>
+                @Html.LabelFor(m => m.CheckOut, "CHECK-OUT")
+            </div>
+        </div>
+        <div id="checkInput-row">
+            @Html.TextBoxFor(m => m.CheckIn, new { id = "checkIn", @class = "form-control", type = "date", required = "required" })
+            @Html.TextBoxFor(m => m.CheckOut, new { id = "checkOut", @class = "form-control", type = "date", required = "required" })
+        </div>
+
+        <label for="guests">GUESTS</label>
+        <div id="guests-row">
+            <select class="form-control" id="guests" name="@Html.NameFor(m => m.Guests)">
+                <option value="0">All</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+
+        @Html.LabelFor(m => m.Category, "CATEGORY")
+        @Html.EnumDropDownListFor(m => m.Category, new { @class = "form-control", @id = "category" })
+        <button id="searchButton" class="btn btn-primary" type="submit">Search</button>
+    </div>
+}
+
+
+
+
+
+
+
+<script>
+    window.onload = () => {
+        const checkIn = document.getElementById('checkIn');
+        const checkOut = document.getElementById('checkOut');
+        const form = document.getElementById('search-form');
+        const searchText = document.getElementById('searchText');
+        //const category = document.getElementById('category');
+
+
+        checkIn.value = sessionStorage.getItem("checkIn");
+        checkOut.value = sessionStorage.getItem("checkOut");
+        searchText.value = sessionStorage.getItem("searchText");
+        //category.value = sessionStorage.getItem("category");
+
+
+
+        form.onsubmit = (function () {
+            sessionStorage.setItem("checkIn", checkIn.value);
+            sessionStorage.setItem("checkOut", checkOut.value);
+            sessionStorage.setItem("searchText", searchText.value);
+            //sessionStorage.setItem("category", category.value);
+        })
+
+        document.body.style = 'background-image: linear-gradient(rgba(0, 0, 0,0.0),rgba(0, 0, 0,0.0)),url(/Data/kame1.jpg) ';
+        //document.querySelector('.navbar-inverse').style = 'background-color: #fbf6f000!important; border-color: #9dcdd700!important';
+        //document.querySelector('.container').style = 'display:none';
+        document.querySelector('#search-box').style = 'background-color: rgba(255, 255, 255,1); width:50%; margin-right:unset!important';
+    }
+</script>

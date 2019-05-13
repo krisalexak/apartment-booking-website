@@ -1,0 +1,225 @@
+﻿@model MvcUserRoles.ViewModels.MessageFormViewModel
+
+@{
+
+    ViewBag.Title = "Messages";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<h2 style="text-align:center">My Messages</h2>
+
+<div id="container">
+
+
+</div>
+
+<div id="reply">
+
+</div>
+
+
+
+@section scripts {
+    <script>
+
+            window.onload = () => {
+                $.ajax({
+                    type: "GET",
+                    url: '/api/messages',
+                    dataType: "json",
+                    success: showResults,
+                    error: function () {
+                        alert("json not found");
+                    }
+
+                });
+
+            }
+
+
+
+
+            function showResults(result) {
+                json = result;
+                showMessages();
+                if (document.getElementById('container').innerHTML === "") {
+                    let div = document.getElementById('container');
+                    let par = document.createElement('p');
+                    par.innerHTML = 'You have no messages';
+                    div.append('par');
+                }
+                else {
+                    reply(json);
+                    console.log("down is the json");
+                    console.log(json);
+                }
+
+            }
+
+
+
+            function reply() {
+
+                let div_reply = document.getElementById('reply');
+                let textarea = document.createElement('textarea');
+                textarea.id = 'mytextarea';
+                let br = document.createElement('br');
+                let button = document.createElement('button');
+                button.innerHTML = 'Reply';
+                button.className ='btn btn-primary'
+
+                div_reply.append(textarea, br, button);
+
+                button.addEventListener('click', function (event) {
+        
+                    let reply_message = document.getElementById('mytextarea').value;
+
+
+                    var receiverid = json[0].ApplicationUserId;
+
+                    var data = { ApplicationUserId: '@ViewBag.userid', body: reply_message, propertyid: json[0].PropertyId, Receiverid: '@Model.userid', OwnerOrTraveler: '@ViewBag.UserRole' };
+                    $.ajax({
+                        url: "/api/messages",
+                        type: "POST",
+                        contentType: 'application/json; charset=utf-8',
+                        dataType: "json",
+                        data: JSON.stringify(data),
+                        success: function (result) {
+                            console.log('Message from REST API.');
+                            console.log(result);
+                            let container = document.getElementById('container');
+                            let item1 = document.createElement('div');
+                            if (result.OwnerOrTraveler == 'Owner') {
+                            item1.className = 'item1';
+                        }
+                        else {
+                            item1.className = 'item2';
+                        }
+
+
+                        let par_you = document.createElement('p');
+                        par_you.id = 'message_sender';
+
+
+                            if (result.OwnerOrTraveler == '@ViewBag.UserRole') {
+                            par_you.innerHTML = ('You')
+                        }
+                        else {
+                                if (result.OwnerOrTraveler == 'Owner') {
+                                par_you.innerHTML = ('Owner')
+                            }
+                            else {
+                                par_you.innerHTML = ('Traveler')
+                            }
+                        }
+
+                        let par_text = document.createElement('p');
+                            par_text.innerHTML = `${result.Body}`;
+
+                        let par_date = document.createElement('p');
+                        par_date.className = 'date'
+                            par_date.innerHTML = `${result.DateOfMessage}`;
+
+                        item1.append(par_you, par_text, par_date);
+
+                        container.append(item1);
+
+
+
+
+                        }
+                    });
+
+
+
+                });
+
+
+            }
+
+
+
+            function showMessages() {
+
+                console.log(json);
+                for (let i = 0; i < json.length; i++)
+                {
+
+                    if (json[i].ApplicationUserId == '@Model.userid' || json[i].ReceiverId == '@Model.userid')
+                    {
+
+                        let container = document.getElementById('container');
+
+                        let item1 = document.createElement('div');
+                        if (json[i].OwnerOrTraveler == 'Owner') {
+                            item1.className = 'item1';
+                        }
+                        else {
+                            item1.className = 'item2';
+                        }
+
+
+                        let par_you = document.createElement('p');
+                        par_you.id = 'message_sender';
+
+                        sessionStorage.getItem('')
+
+                        if (json[i].OwnerOrTraveler == '@ViewBag.UserRole') {
+                            par_you.innerHTML = ('You')
+                        }
+                        else {
+                            if (json[i].OwnerOrTraveler == 'Owner') {
+                                par_you.innerHTML = ('Owner')
+                            }
+                            else {
+                                par_you.innerHTML = ('Traveler')
+                            }
+                        }
+
+                        let par_text = document.createElement('p');
+                        par_text.innerHTML = `${json[i].Body}`;
+
+                        let par_date = document.createElement('p');
+                        par_date.className = 'date'
+                        par_date.innerHTML = `${json[i].DateOfMessage}`;
+
+                        item1.append(par_you, par_text, par_date);
+
+                        container.append(item1);
+
+
+
+                        let last_message = json[json.length - 1];
+                        console.log(last_message);
+                    }
+                }
+
+
+            }
+
+        function SendReplyMessage() {
+
+            let reply = document.getElementById('SendReplyMessage');
+
+            let textarea = document.createElement('textarea');
+            let button = document.createElement('button');
+            button.innerHTML = 'Reply';
+
+
+            reply.append(textarea, button);
+
+
+
+
+        }
+
+
+
+
+
+
+    </script>
+}
+

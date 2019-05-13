@@ -1,0 +1,95 @@
+﻿@model IEnumerable<MvcUserRoles.Models.Property>
+
+@{
+    ViewBag.Title = "My Properties";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+<h2>@ViewBag.Message</h2>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@if (Model.ToList().Count != 0)
+{
+    <h2>My Properties</h2>
+
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.City)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Country)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PricePerNight)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Image)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Guests)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Beds)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rooms)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.City)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Country)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PricePerNight)
+                </td>
+                <td>
+                    <img src="/Data/@item.Image" height="200" width="300" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Guests)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Beds)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Rooms)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    <a href="#" class="js-cancel-gig" data-gig-id="@item.Id">
+                        Delete
+                    </a>
+                </td>
+            </tr>
+        }
+
+    </table>
+}
+
+
+@section scripts {
+
+    <script src="~/Scripts/MyScripts/deleteBootbox.js"></script>
+
+}
